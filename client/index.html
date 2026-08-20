@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College — Excellence in Education</title>
+    <meta name="description" content="College is a premier institution offering 60+ undergraduate programs. Apply now, explore academics, student life, and the student portal." />
+    <meta name="keywords" content="college, university, admissions, academics, student life, education, undergraduate programs" />
+    <meta name="theme-color" content="#0F1E2E" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
+    <meta property="og:title" content="College — Excellence in Education" />
+    <meta property="og:description" content="Premier undergraduate education with 60+ programs, vibrant student life, and a secure student portal." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/assets/media/images/campus/campus-1.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- No-flash theme script: applies saved theme before first paint -->
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('college-theme');
+          if (!t) t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          document.documentElement.setAttribute('data-theme', t);
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "college-website-server",
+  "version": "1.0.0",
+  "description": "College Website - Express + SQLite backend (Node built-in node:sqlite)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "seed": "node seed.js",
+    "media": "node download_media.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
